@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    border: solid red 1px;
+    width:100%;
+}
+
+#left{
+    border:solid blue 1px;
+    width:70%;
+    margin-right:29% ;
+}
+#right{
+    border:solid yellow 1px;
+    width:29%;
+    float: right;
+}
+
+.item{
+    width: 100%;
+    height:100px;
+    margin-top: 20px;
+}
+.item:first-child{
+    margin-top: 0;
+}
+
+#left .item{
+    background-color: #7bff53;
+}
+
+#right .item{
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
+    right: 1px;
+    bottom:0;
+}
