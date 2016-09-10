@@ -1,0 +1,10 @@
+$array :(margin,padding);
+@mixin insert($key,$value){
+  @each $p in $array{
+    #{$p}-#{$key}:$value;
+  }
+}
+
+.box{
+  @include insert(top,20px);
+}

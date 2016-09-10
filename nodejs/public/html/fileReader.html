@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>file reader</title>
+    <script>
+        window.onload=function () {
+            var input1=document.querySelector("#input_file1");
+            var input2=document.querySelector("#input_file2");
+            var button1=document.querySelector("#button_upload");
+            button1.addEventListener("click",function () {
+                input2.click();
+            });
+            var array=[input1,input2];
+            [].concat(array).forEach(function (item) {
+                item.addEventListener("change",function () {
+                    var file =new FileReader();
+                    file.onload=function (e) {
+                        var result=document.querySelector("#result");
+                        result.innerHTML=e.target.result;
+                    };
+                    file.readAsText(this.files[0]);
+                })
+            })
+
+            var dropPic=document.querySelector("#dropPic");
+            dropPic.addEventListener("dragenter",prevent);
+            dropPic.addEventListener("dragover",prevent);
+            function prevent(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+
+            dropPic.addEventListener("drop",function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                var file=e.dataTransfer.files[0];
+                var filereader=new FileReader();
+                var that=this;
+                filereader.onload=function (e) {
+                    that.style.backgroundImage="url('"+e.target.result+"')";
+                }
+                filereader.readAsDataURL(file);
+
+            })
+
+        }
+    </script>
+
+    <style>
+        .readFile, #dropPic{
+            width:300px;
+            height: 200px;
+            border: 2px solid red;
+            padding: 10px;
+            margin:20px auto ;
+        }
+
+        #input_file2{
+            display: none;
+        }
+        #tip{
+            position: absolute;
+            z-index: -1;
+        }
+        #dropPic{
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<div class="readFile">
+    <input id="input_file1" type="file" >
+</div>
+
+<div class="readFile">
+    <input id="input_file2" type="file">
+    <input type="button" id="button_upload" value="upload">
+</div>
+
+<div id="dropPic">
+    <div id="tip">drop pic to here</div>
+</div>
+
+<div id="result">
+
+</div>
+</body>
+</html>
