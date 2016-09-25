@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17e205f1-0fc0-4e13-9c35-9c8644af566e" name="Default" comment="nowcoder剑指offer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/Fibonacci.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/FindKthToTail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/HasSubtree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/JumpFloorII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/MergeList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/MirrorTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/NumberOf1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/Power.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/RectCover.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/ReverseList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/maxNum_array.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/minNumberInRotateArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/reOrderArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/rebuildTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/stackToQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nowcode/stringreplace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java.iml" afterPath="$PROJECT_DIR$/../java.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="17e205f1-0fc0-4e13-9c35-9c8644af566e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nowcode/MirrorTree.java" afterPath="$PROJECT_DIR$/src/nowcode/MirrorTree.java" />
     </list>
     <ignored path="myUtil.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,61 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reOrderArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcode/reOrderArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindKthToTail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcode/FindKthToTail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcode/ReverseList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcode/MergeList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasSubtree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nowcode/HasSubtree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MirrorTree.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MirrorTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nowcode/MirrorTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -182,9 +113,9 @@
         <option value="$PROJECT_DIR$/src/nowcode/reOrderArray.java" />
         <option value="$PROJECT_DIR$/src/nowcode/FindKthToTail.java" />
         <option value="$PROJECT_DIR$/src/nowcode/ReverseList.java" />
-        <option value="$PROJECT_DIR$/src/nowcode/MirrorTree.java" />
         <option value="$PROJECT_DIR$/src/nowcode/MergeList.java" />
         <option value="$PROJECT_DIR$/src/nowcode/HasSubtree.java" />
+        <option value="$PROJECT_DIR$/src/nowcode/MirrorTree.java" />
       </list>
     </option>
   </component>
@@ -970,7 +901,7 @@
       <workItem from="1473590920293" duration="649000" />
       <workItem from="1473775133292" duration="86000" />
       <workItem from="1474690347029" duration="14359000" />
-      <workItem from="1474769189320" duration="20672000" />
+      <workItem from="1474769189320" duration="21463000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1469282322930</created>
@@ -1021,7 +952,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469962147290</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="nowcoder剑指offer">
+      <created>1474795890652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1474795890652</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1030,7 +968,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123901000" />
+    <option name="totallyTimeSpent" value="124692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1047,7 +985,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40949556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40949556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740742" sideWeight="0.5095238" order="7" side_tool="true" content_ui="tabs" />
@@ -1479,14 +1417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcode/MirrorTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcode/MergeList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
@@ -1497,8 +1427,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcode/HasSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcode/MirrorTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
