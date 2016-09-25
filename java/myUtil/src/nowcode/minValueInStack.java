@@ -20,7 +20,7 @@ class Solution_minValueInStack {
     }
 
     public void pop() {
-        int top=value.pop();k
+        int top=value.pop();
         if(min.peek()==top)
             min.pop();
     }
