@@ -12,7 +12,7 @@ public class maxNum_array {
         5, 8, 10, 13, 15, 19, 21, 23, 24,  96, 97,100,105}
         }
         ;
-        Solution solution = new Solution();
+        Solution111 solution = new Solution111();
         int test[] = {22};
         for (int i = 0; i < test.length; i++) {
 
@@ -21,7 +21,7 @@ public class maxNum_array {
     }
 }
 
-class Solution {
+class Solution111 {
     public boolean Find(int[][] array, int target) {
         return find(array, target, 0, 0, array.length - 1, array[0].length - 1);
     }
